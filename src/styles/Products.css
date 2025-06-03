@@ -1,0 +1,32 @@
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+
+.product-card{
+    background-color: #930ebb;
+    border: 1px solid #6f078f;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-top: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.product-image{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
